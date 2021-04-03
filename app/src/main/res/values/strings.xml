@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Saison</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="action_settings">item1</string>
+    <string name="action2">item2</string>
+    <string name="action3">item3</string>
+    <string name="titre_section0">Pringtemps</string>
+    <string name="titre_section1">Ete</string>
+    <string name="titre_section2">Automne</string>
+    <string name="titre_section3">Hiver</string>
+</resources>

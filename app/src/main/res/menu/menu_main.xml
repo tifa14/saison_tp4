@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.sc.gestiononglets.MainActivity">
+
+    <item
+        android:id="@+id/it1"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="ifRoom"
+        />/ android:icon="@drawable/fleur"
+    />
+
+    <item
+        android:id="@+id/it2"
+        android:orderInCategory="100"
+        android:title="@string/action2"
+        app:showAsAction="ifRoom"
+        />android:icon="@drawable/animaux"
+    />
+
+    <item
+        android:id="@+id/it3"
+        android:orderInCategory="100"
+        android:title="@string/action3"
+        app:showAsAction="ifRoom"
+        />android:icon="@drawable/pandas"
+    />
+</menu>
