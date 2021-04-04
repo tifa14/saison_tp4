@@ -11,6 +11,8 @@ import androidx.annotation.StringRes;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
+
+import com.example.saison_tp4.Fragment1;
 import com.example.saison_tp4.R;
 
 import com.example.saison_tp4.NatureFragment;
@@ -60,8 +62,8 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
                 break;
 
             case 4:
-                titre = mContext.getString(R.string.titre_section3).toUpperCase(l);
-                icone = mContext.getResources().getDrawable(R.drawable.hiv);
+                titre = mContext.getString(R.string.saison).toUpperCase(l);
+                icone = mContext.getResources().getDrawable(R.drawable.saison);
                 break;
         }
         SpannableString sb = new SpannableString(" " + titre);
@@ -86,7 +88,7 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
             case 3:
                 return NatureFragment.newInstance(3, mContext.getString(R.string.titre_section3),R.drawable.hiver);
             case 4:
-                return NatureFragment.newInstance(4, mContext.getString(R.string.titre_section3),R.drawable.hiv);
+                return Fragment1.newInstance("saison");
         }
         return null;
     }
